@@ -1,5 +1,5 @@
-# Кількість вакансій
-SELECT count(job_id) as number_of_vacancies
+# Кількість унікальних вакансій
+SELECT count(distinct JOB_ID) as number_of_vacancies
 FROM ds.employees;
 
 
